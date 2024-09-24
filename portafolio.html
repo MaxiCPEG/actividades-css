@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio de maximo.gomez</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal - [Tu Nombre]</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Sección principal */
+        section {
+            padding: 2rem;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        /* Estilos de títulos */
+        h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Estilos para las tarjetas de contenido */
+        .skills, .experience, .education, .projects {
+            background-color: white;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Imágenes */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+
+        /* Contenedores flexibles para experiencia laboral */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .container div {
+            flex: 1 1 45%;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            background-color: #fafafa;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos para listas */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #333;
+            color: white;
+            position: relative;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Enlace de LinkedIn */
+        .linkedin-link {
+            text-decoration: none;
+            color: #0077B5;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .container div {
+                flex: 1 1 100%;
+                margin-bottom: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 0.9rem;
+            }
+
+            section {
+                padding: 1rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            ul li {
+                font-size: 1rem;
+            }
+
+            .container div {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>[Tu Nombre] - Desarrollador y Perfil Técnico Informático</h1>
+        <img src="perfil.jpg" alt="Foto de Perfil" class="profile-img">
+        <p>Portafolio Personal</p>
+    </header>
+
+    <!-- Introducción -->
+    <section>
+        <h2>Sobre mí</h2>
+        <p>Desarrollador de software con experiencia en desarrollo web, aplicaciones móviles y diseño de bases de datos. Apasionado por la tecnología y siempre buscando aprender nuevas herramientas. Mi objetivo es crear soluciones eficientes para problemas complejos mediante la implementación de tecnología de vanguardia.</p>
+        <a href="https://www.linkedin.com/in/tu-perfil/" class="linkedin-link">Conéctate conmigo en LinkedIn</a>
+    </section>
+
+    <!-- Habilidades Técnicas -->
+    <section class="skills">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li><strong>Lenguajes de Programación:</strong> JavaScript, Python, Java, C++</li>
+            <li><strong>Desarrollo Web:</strong> HTML, CSS, JavaScript, React, Angular</li>
+            <li><strong>Bases de Datos:</strong> MySQL, PostgreSQL, MongoDB</li>
+            <li><strong>Herramientas DevOps:</strong> Docker, Jenkins, Kubernetes</li>
+            <li><strong>Control de Versiones:</strong> Git, GitHub, GitLab</li>
+        </ul>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section class="experience">
+        <h2>Experiencia Laboral</h2>
+        <div class="container">
+            <div>
+                <h3>Desarrollador Full Stack - Empresa X</h3>
+                <p><em>Marzo 2021 - Actualidad</em></p>
+                <p>Desarrollo de aplicaciones web utilizando React y Node.js. Responsable de la integración con bases de datos y APIs.</p>
+            </div>
+            <div>
+                <h3>Ingeniero de Software - Empresa Y</h3>
+                <p><em>Enero 2019 - Febrero 2021</em></p>
+                <p>Diseño de sistemas distribuidos y optimización de servicios en la nube, implementando microservicios con Docker y Kubernetes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section class="education">
+        <h2>Educación</h2>
+        <ul>
+            <li><strong>Licenciatura en Ingeniería Informática</strong> - Universidad ABC (2015 - 2019)</li>
+            <li><strong>Certificación en AWS Cloud Practitioner</strong> - AWS Academy (2020)</li>
+            <li><strong>Diplomado en Desarrollo Web Full Stack</strong> - Platzi (2021)</li>
+        </ul>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="projects">
+        <h2>Proyectos Destacados</h2>
+        <ul>
+            <li><strong>Sistema de Gestión de Inventarios:</strong> Aplicación web creada para la gestión de inventarios, con tecnologías como React y MongoDB.</li>
+            <li><strong>Plataforma de E-learning:</strong> Desarrollo de una plataforma interactiva para cursos en línea, utilizando Node.js y bases de datos relacionales.</li>
+            <li><strong>Aplicación Móvil de Tareas:</strong> Aplicación móvil multiplataforma con Flutter, para la gestión de tareas diarias.</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Desarrollado por [Tu Nombre] | <a href="https://www.linkedin.com/in/tu-perfil/" style="color: #0077B5; text-decoration: none;">LinkedIn</a></p>
+    </footer>
+
+</body>
+</html>
+
+</body>
+</html>
